@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    font-family: "Reef";
+    background: rgba(0, 0, 0, 0.068);
+}
+
+.container-fluid {
+    font-size: 1.5rem;
+}
+
+.carousel-item {
+    height: 70vh;
+    background: rgb(0, 0, 0);
+    position: relative;
+    color: white;
+    font-family: "Reef";
+    font-weight: 50;
+}
+
+.container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    border-color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: white;
+}
+
+.navbar {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: rgb(41, 224, 17);
+}
+
+.zone {
+    color: rgb(0, 0, 0);
+}
+
+.master-container {
+    display: block;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: center;
+    background: rgba(17, 9, 9, 0.082);
+}
+
+.box>img {
+    height: 600px;
+    width: 400px;
+}
+
+.box {
+    padding: 20%;
+    transition: all 1s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.082);
+    bottom: 0px;
+    position: relative;
+    width: 100%;
+}
